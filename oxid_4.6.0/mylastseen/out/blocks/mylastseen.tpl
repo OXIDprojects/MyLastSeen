@@ -1,5 +1,0 @@
-[{$smarty.block.parent}]
-[{assign var="aLastProducts" value=$oView->getLastProducts() }]
-[{if $aLastProducts && $aLastProducts->count() > 0 }]
-    [{include file="widget/product/boxproducts.tpl" _boxId="lastseen" _oBoxProducts=$aLastProducts _sHeaderIdent="LAST_SEEN"}]
-[{/if}]
