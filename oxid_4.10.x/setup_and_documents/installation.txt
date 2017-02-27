@@ -1,0 +1,20 @@
+------------------------------------------
+OXID-Modul "Last seen products for azure theme"
+------------------------------------------
+
+by Zunderweb
+
+http://www.zunderweb.de
+
+Frank Zunderer
+Waldstr. 22
+82205 Gilching
+Tel.: +49-8105-777250
+e-Mail: oxid@zunderer.de
+
+
+Requirements: OXID Version 4.10.0 or higher
+
+Installation:
+-------------
+1) Please copy the folder "mylastseen" to your modulefolder and activate in Backend

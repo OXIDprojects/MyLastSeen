@@ -1,0 +1,5 @@
+[{$smarty.block.parent}]
+[{assign var="aLastProducts" value=$oView->getLastProducts() }]
+[{if $oView->getLastProducts()|count}]
+    [{include file="widget/product/list.tpl" type="grid" listId="lastproducts"  products=$oView->getLastProducts() head="LAST_SEEN"|oxmultilangassign subhead="LAST_SEEN_SUBHEADER"|oxmultilangassign}]
+[{/if}]
